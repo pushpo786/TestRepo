@@ -1,12 +1,10 @@
 package mentoringPractice;
 
-public class TravelPlan {
+public class MethodDemoForTravelPlan {
     public static void main(String[] args) {
         travelExpense();
         shopping(200,300);
         outingCost();
-
-
     }
     public static void travelExpense() {
         int airfare = 1400;
@@ -15,15 +13,11 @@ public class TravelPlan {
         int totalcost= airfare + hotelfare + foodcost;
         System.out.println(" this is my initial cost: "+totalcost);
     }
-
-
     public static void shopping(int nonessential, int essential) {
 
         int shopping= essential-nonessential;
         System.out.println(" only can effort essential "+shopping);
-
     }
-
     public static int outingCost(){
         int taxi=300;
         int siteseeingfee=200;
@@ -31,8 +25,6 @@ public class TravelPlan {
         System.out.println(" Love to roaming around but costly "+totalcost );
         return totalcost;
     }
-
-
 }
 
 

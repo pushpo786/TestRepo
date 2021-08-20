@@ -1,4 +1,4 @@
-package Enhertitence;
+package Enhertence;
 
 public class House {
 

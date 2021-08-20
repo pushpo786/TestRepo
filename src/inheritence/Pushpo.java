@@ -1,2 +1,5 @@
-package inheritence;public class Pushpo {
+package inheritence;
+
+public class Pushpo {
+
 }

@@ -1,6 +1,6 @@
 package mentoringPractice;
 
-public class SwitchConditional {
+public class SwitchCaseConditional {
     public static void main(String[] args) {
         String animal="Tiger";
         switch (animal){
@@ -13,7 +13,7 @@ public class SwitchConditional {
             case "Cow":
                 System.out.println("Cows meats are so good to eat");
                 break;
-            case "monkey":
+            case "Monkey":
                 System.out.println("Monkey's are so intelligent ");
                 break;
             default:
