@@ -1,8 +1,9 @@
-package inheritence;
+package generics;
 
-public class PushpoParents {
+public class TestClass {
     public static void main(String[] args) {
 
-
     }
+
+
 }
